@@ -9,7 +9,7 @@
 | `Ctrl + j`      | Move down window            |
 | `Ctrl + k`      | Move up window              |
 | `Ctrl + l`      | Move to right window        |
-| `Space + ,`     | Show all editors            |
+| `Space + ,`     | Show all editors tabs which are open           |
 | `Space + e`     | Open sidebar                |
 | `Space s g`     | Find in files               |
 | `Space g g`     | Go to Git                   |
@@ -17,6 +17,7 @@
 | `Shift + Tab`   | Previous tab in group       |
 | `s h`           | Split editor (horizontal)   |
 | `s v`           | Split editor (vertical)     |
+| `capslock capslock`           | mapped to escape key shift modes   |
 
 # Coding
 
