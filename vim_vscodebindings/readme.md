@@ -68,6 +68,8 @@ https://vim.rtorr.com/
 |  } { | jump to next and previous paragraph (or function/block, when editing code)|
 |   Ctrl + e     |  move screen down one line (without moving cursor)         |
 |  Ctrl + y      |  move screen up one line (without moving cursor)         |
+| f +letter      | now forward to the next selected letter eg f+o will move to next o         |
+|F  +letter      | now forward to the next selected letter eg F+o will move to next o         |
 ## insert modes
 | Shortcut          | Action                |
 |-------------------|------------------------|
@@ -95,6 +97,8 @@ this is a test text 'to learn these changes'
 | Shortcut          | Action                |
 |-------------------|------------------------|
 | cc or S |replace entire line and enter insert mode   |
+| r| replace 1 character |
+| R|  replace more than one character, until ESC is pressed.|
 |cw  |change and replace from cursor to the end of the line   |
 |  s|delete character and substitute with text   |
 | u |oundo  |
