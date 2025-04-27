@@ -82,7 +82,7 @@ this is a test text 'to learn these changes'
 | Shortcut          | Action                |
 |-------------------|------------------------|
 |yy        |  copy the line         | 
-|yy        |  copy the line         | 
+|y        |  copy the selected word         | 
 |2yy        |copy 2 lines           |
 |p        |paste           |
 |ciw        |deletes the word and goes into insert mode           |
@@ -101,9 +101,10 @@ this is a test text 'to learn these changes'
 | U |restore(undo) last changed line   |
 |ctrl r  |   |redo
 |.  |repeat the last command   |
+## visual mode
 |  |   |
-|  |   |
-|  |   |
+| a{ | select everything within {}  |
+|   )|
 |  |   |
 |  |   |
 |  |   |
