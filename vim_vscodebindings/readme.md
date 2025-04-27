@@ -54,3 +54,16 @@
 | `Shift + a`       | Add new folder          |
 
 ---
+# basic commands that i use everyday
+https://vim.rtorr.com/
+| Shortcut          | Action                |
+|-------------------|------------------------|
+|b        |jump backwards to the start of the word           |
+|$        | end of the line                                  | 
+|0        |jump to the start of the line           |
+|gg        |first line of the document           |
+|G        |last line of the document           |
+|5gg        |move to the fifth line    |
+|        |           |
+|        |           |
+|        |           |
