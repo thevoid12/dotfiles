@@ -77,9 +77,36 @@ https://vim.rtorr.com/
 |  o      |  append (open) a new line below the current line          |
 |O        |  append (open) a new line above the current line          |
 |   ctrl+c/escape     |exit insert mode           |
-|        |           |
-|        |           |
-|        |           |
-|        |           |
+## cut copy paste
+this is a test text 'to learn these changes'
+| Shortcut          | Action                |
+|-------------------|------------------------|
+|yy        |  copy the line         | 
+|yy        |  copy the line         | 
+|2yy        |copy 2 lines           |
+|p        |paste           |
+|ciw        |deletes the word and goes into insert mode           |
+|dw  |delete the word and the space next to it   |
+| diw |delete the word alone   |
+|D  |delete until the end of the line from cursor so wont remove the line  |
+| dd |delete the whole line   |
+|x |cut the character alone|
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
 
-
+ is a test text 'to learn these changes'
