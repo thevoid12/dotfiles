@@ -91,13 +91,16 @@ this is a test text 'to learn these changes'
 |D  |delete until the end of the line from cursor so wont remove the line  |
 | dd |delete the whole line   |
 |x |cut the character alone|
-|  |   |
-|  |   |
-|  |   |
-|  |   |
-|  |   |
-|  |   |
-|  |   |
+## editing 
+| Shortcut          | Action                |
+|-------------------|------------------------|
+| cc or S |replace entire line and enter insert mode   |
+|cw  |change and replace from cursor to the end of the line   |
+|  s|delete character and substitute with text   |
+| u |oundo  |
+| U |restore(undo) last changed line   |
+|ctrl r  |   |redo
+|.  |repeat the last command   |
 |  |   |
 |  |   |
 |  |   |
@@ -109,4 +112,4 @@ this is a test text 'to learn these changes'
 |  |   |
 |  |   |
 
- is a test text 'to learn these changes'
+
