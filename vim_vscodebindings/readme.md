@@ -6,7 +6,7 @@
 | Shortcut        | Action                    |
 |-----------------|----------------------------|
 | `Ctrl + h`      | Move to left window         |
-| `Ctrl + j`      | Move down window            |
+| `Ctrl + j`      | Move down window        |
 | `Ctrl + k`      | Move up window              |
 | `Ctrl + l`      | Move to right window        |
 | `Space + ,`     | Show all editors tabs which are open           |
@@ -56,6 +56,7 @@
 ---
 # basic commands that i use everyday
 https://vim.rtorr.com/
+## cursor navigation
 | Shortcut          | Action                |
 |-------------------|------------------------|
 |b        |jump backwards to the start of the word           |
@@ -64,6 +65,21 @@ https://vim.rtorr.com/
 |gg        |first line of the document           |
 |G        |last line of the document           |
 |5gg        |move to the fifth line    |
+|  } { | jump to next and previous paragraph (or function/block, when editing code)|
+|   Ctrl + e     |  move screen down one line (without moving cursor)         |
+|  Ctrl + y      |  move screen up one line (without moving cursor)         |
+## insert modes
+| Shortcut          | Action                |
+|-------------------|------------------------|
+|    i   |  insert before the cursor         |
+|   a     |    insert (append) after the cursor       |
+|A        |insert (append) at the end of the line           |
+|  o      |  append (open) a new line below the current line          |
+|O        |  append (open) a new line above the current line          |
+|   ctrl+c/escape     |exit insert mode           |
 |        |           |
 |        |           |
 |        |           |
+|        |           |
+
+
