@@ -85,6 +85,7 @@ this is a test text 'to learn these changes'
 |-------------------|------------------------|
 |yy        |  copy the line         | 
 |y        |  copy the selected word         | 
+|ya{        |  copy text between curly brackes |
 |2yy        |copy 2 lines           |
 |p        |paste           |
 |ciw        |deletes the word and goes into insert mode           |
