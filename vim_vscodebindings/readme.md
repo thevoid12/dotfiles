@@ -91,6 +91,7 @@ this is a test text 'to learn these changes'
 |ciw        |deletes the word and goes into insert mode           |
 |dw  |delete the word and the space next to it   |
 | diw |delete the word alone   |
+|db |delete the word before or if you are in the middle of the word delete the remaining characters before|
 |D  |delete until the end of the line from cursor so wont remove the line  |
 | dd |delete the whole line   |
 |x |cut the character alone|
