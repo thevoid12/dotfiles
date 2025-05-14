@@ -18,6 +18,9 @@
 | `s h`           | Split editor (horizontal)   |
 | `s v`           | Split editor (vertical)     |
 | `capslock capslock`           | mapped to escape key shift modes   |
+| `/word to be searched`           | search for a word in a file|
+| `enter+n`           | once all the search results are there we can go to next found result using n|
+| `shift+n`           | navigate to the previous word from the found search result|
 
 # Coding
 

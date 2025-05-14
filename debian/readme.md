@@ -5,3 +5,4 @@
 - alt is the new ctrl
 - windows key is the new alt
 - ctrl is the new windows key
+- vim.useSystemClipboard should be enabled in setttings to use the same buffer for both copying and pasting files outside of vim 
