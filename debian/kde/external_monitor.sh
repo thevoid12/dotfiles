@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# this script fixes my wayland external monitor resolution issue
 CHOICE=$(kdialog --menu "Select Display Configuration" \
     "1" "External Monitor Only (Laptop screen OFF)" \
     "2" "Dual Monitor (External Left, Laptop Right)")
