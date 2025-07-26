@@ -1,5 +1,15 @@
 #!/bin/bash
 
+CUR_DIR="$(pwd)"
+# Add at very top
+exec &>> "$CUR_DIR/monitor-setup.log"
+echo "--- Running at $(date) ---"
+
+# Set environment vars so kscreen-doctor works via GUI launcher
+export DISPLAY=:0
+export XDG_SESSION_TYPE=wayland
+export WAYLAND_DISPLAY=wayland-0
+
 # this script fixes my wayland external monitor resolution issue
 CHOICE=$(kdialog --menu "Select Display Configuration" \
     "1" "External Monitor Only (Laptop screen OFF)" \
