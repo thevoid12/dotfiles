@@ -35,7 +35,7 @@ if [[ "$CHOICE" == "1" ]]; then
     kscreen-doctor output.$EXTERNAL.enable
     kscreen-doctor output.$EXTERNAL.mode.0
     kscreen-doctor output.$EXTERNAL.position.0,0
-    kscreen-doctor output.$EXTERNAL.scale.1
+    kscreen-doctor output.$EXTERNAL.scale.1.01
     kscreen-doctor output.$EXTERNAL.rotation.1
     kscreen-doctor output.$EXTERNAL.primary
 elif [[ "$CHOICE" == "2" ]]; then
