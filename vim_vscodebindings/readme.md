@@ -1,6 +1,6 @@
 # list of my custom configured keybindings along with my common vim commands 
 ---
-
+- version 2 is work in progress
 # Navigation
 
 | Shortcut        | Action                    |
