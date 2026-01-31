@@ -40,21 +40,27 @@ if [[ "$CHOICE" == "1" ]]; then
     kscreen-doctor output.$EXTERNAL.primary
 elif [[ "$CHOICE" == "2" ]]; then
     # External on left, laptop on right
+  # Enable outputs
     kscreen-doctor output.$INTERNAL.enable
     kscreen-doctor output.$EXTERNAL.enable
 
-    kscreen-doctor output.$EXTERNAL.mode.0
-    kscreen-doctor output.$INTERNAL.mode.0
+    # Set resolution/mode
+     kscreen-doctor output.$EXTERNAL.mode.preferred
+     kscreen-doctor output.$INTERNAL.mode.preferred
 
+    # Place external left, internal right
     kscreen-doctor output.$EXTERNAL.position.0,0
-    kscreen-doctor output.$INTERNAL.position.1920,0  # Assumes external is 1920x1080
+    kscreen-doctor output.$INTERNAL.position.1920,0
 
-    kscreen-doctor output.$EXTERNAL.scale.1
-    kscreen-doctor output.$INTERNAL.scale.1
+    # Scale factors (optional, tweak if needed)
+    kscreen-doctor output.$EXTERNAL.scale.1.01
+    # kscreen-doctor output.$INTERNAL.scale.2
 
+    # Rotation (1 = normal)
     kscreen-doctor output.$EXTERNAL.rotation.1
     kscreen-doctor output.$INTERNAL.rotation.1
 
+    # Set external as primary
     kscreen-doctor output.$EXTERNAL.primary
 else
     kdialog --error "Invalid option selected"
