@@ -64,11 +64,6 @@
     "command": "extension.vim_escape",
     "when": "editorTextFocus && vim.active && !inDebugRepl"
   },
-  {
-    "key": "escape",
-    "command": "-extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
   // Coding
   {
     "key": "space c a",
@@ -149,16 +144,26 @@
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "vim.mode == 'Insert' && editorTextFocus"
+  },
+  {
     "key": "ctrl+a",
     "command": "editor.action.selectAll",
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+p",
+    "key": "ctrl+shift+p",
     "command": "workbench.action.showCommands"
   },
   {
-    "key": "ctrl+o",
+    "key": "ctrl+p",
     "command": "workbench.action.quickOpen"
   },
   // Debug
