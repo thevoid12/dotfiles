@@ -59,11 +59,8 @@
     "command": "workbench.action.splitEditorDown",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
-  {
-    "key": "capslock",
-    "command": "extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
+  // CapsLock is remapped to Escape at the OS level via kxkbrc (caps:escape_shifted_capslock)
+  // so no VSCode binding needed — Escape → vim_escape is the default
   // Coding
   {
     "key": "space c a",
