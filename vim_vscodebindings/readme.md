@@ -54,6 +54,7 @@ Custom keybindings for VSCode with Vim extension.
 | Shortcut | Action |
 |----------|--------|
 | `Space g d` | Go to definition |
+| `Ctrl + Enter` | Go to definition (jump into called function) |
 | `Space g r` | Go to references |
 | `Space g i` | Go to implementation |
 | `Space g g` | Open Git view |

@@ -116,6 +116,11 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "ctrl+enter",
+    "command": "editor.action.revealDefinition",
+    "when": "editorTextFocus"
+  },
+  {
     "key": "space g r",
     "command": "editor.action.goToReferences",
     "when": "vim.mode == 'Normal' && editorTextFocus"

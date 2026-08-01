@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=TV Audio
+Comment=Toggle system audio between laptop speakers and the TV over HDMI
+Exec=bash -c '/home/void/voidzone/dotfiles/fedora/kde/tv_audio.sh'
+Icon=video-television
+Terminal=false
+Categories=Utility;
+X-KDE-SubstituteUID=false
+StartupNotify=false
