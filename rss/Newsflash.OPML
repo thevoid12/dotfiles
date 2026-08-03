@@ -1,0 +1,48 @@
+<opml version="2.0">
+  <head>
+    <title>NewsFlash OPML export</title>
+  </head>
+  <body>
+    <outline text="matklad"
+      type="rss"
+      xmlUrl="https://matklad.github.io/feed.xml"
+      htmlUrl="https://matklad.github.io/"
+      title="matklad" />
+    <outline text="Vishnu&apos;s Pages"
+      type="rss"
+      xmlUrl="https://iamvishnu.com/rss.xml"
+      htmlUrl="https://iamvishnu.com/"
+      title="Vishnu&apos;s Pages" />
+    <outline text="gingerBill - Articles"
+      type="rss"
+      xmlUrl="https://www.gingerbill.org/article/index.xml"
+      htmlUrl="https://www.gingerbill.org/article/"
+      title="gingerBill - Articles" />
+    <outline text="seated.ro" type="rss" xmlUrl="https://seated.ro/rss.xml" htmlUrl="https://seated.ro/" title="seated.ro" />
+    <outline text="Colin&apos;s Notes"
+      type="rss"
+      xmlUrl="https://colinsblog.net/feed.xml"
+      htmlUrl="https://colinsblog.net/"
+      title="Colin&apos;s Notes" />
+    <outline text="surya on Suriya&apos;s site"
+      type="rss"
+      xmlUrl="https://suriya.cc/index.xml"
+      htmlUrl="https://suriya.cc/"
+      title="surya on Suriya&apos;s site" />
+    <outline text="Notes on software development"
+      type="rss"
+      xmlUrl="https://notes.eatonphil.com/rss.xml"
+      htmlUrl="http://notes.eatonphil.com/"
+      title="Notes on software development" />
+    <outline text="-- Danish Prakash"
+      type="rss"
+      xmlUrl="https://danishpraka.sh/feed.xml"
+      htmlUrl="https://danishpraka.sh/"
+      title="-- Danish Prakash" />
+    <outline text="Mario Zechner recommended reading/viewing"
+      type="rss"
+      xmlUrl="https://mariozechner.at/recommended-reading/rss.xml"
+      htmlUrl="https://mariozechner.at/recommended-reading/"
+      title="Mario Zechner recommended reading/viewing" />
+  </body>
+</opml>
