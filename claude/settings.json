@@ -1,7 +1,9 @@
 {
   "workflowKeywordTriggerEnabled": false,
   "enabledPlugins": {
-    "caveman@caveman": true
+    "caveman@caveman": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
