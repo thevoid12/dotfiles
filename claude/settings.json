@@ -16,5 +16,7 @@
   "promptSuggestionEnabled": false,
   "awaySummaryEnabled": false,
   "theme": "dark",
-  "remoteControlAtStartup": false
+  "remoteControlAtStartup": false,
+  "model": "sonnet",
+  "effortLevel": "medium"
 }
