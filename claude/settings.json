@@ -1,9 +1,11 @@
 {
+  "model": "sonnet",
   "workflowKeywordTriggerEnabled": false,
   "enabledPlugins": {
     "caveman@caveman": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
-    "gopls-lsp@claude-plugins-official": true
+    "gopls-lsp@claude-plugins-official": true,
+    "clangd-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "caveman": {
@@ -13,10 +15,14 @@
       }
     }
   },
+  "effortLevel": "medium",
   "promptSuggestionEnabled": false,
   "awaySummaryEnabled": false,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
   "theme": "dark",
   "remoteControlAtStartup": false,
-  "model": "sonnet",
-  "effortLevel": "medium"
+  "voiceEnabled": true
 }
